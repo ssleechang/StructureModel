@@ -1,0 +1,114 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# BIM 도메인 지식 가이드
+
+## Building Information Model (BIM) 개념
+
+### 구조 모델링의 핵심 요소
+이 프로젝트는 건축물의 구조적 요소들을 디지털로 모델링하는 BIM 시스템의 핵심부분입니다.
+
+### 주요 구조 요소들
+
+#### 수직 구조 요소
+- **Column (기둥)**: [MSColumnG.h](mdc:MSColumnG.h) - 수직 하중을 지지하는 구조체
+- **Wall (벽)**: [MSWallMemberG.h](mdc:MSWallMemberG.h) - 수직/수평 하중을 지지하는 면 구조체
+- **Buttress (부벽)**: [MDRcButtressM.h](mdc:MDRcButtressM.h) - 벽체를 보강하는 구조체
+
+#### 수평 구조 요소
+- **Beam (보)**: [MSBeamG.h](mdc:MSBeamG.h) - 수평 하중을 전달하는 선형 구조체
+- **Slab (슬래브)**: [MSSlabG.h](mdc:MSSlabG.h) - 바닥/천장을 형성하는 면 구조체
+- **Transfer Beam**: [TransferBeamRebarTemplate.h](mdc:TransferBeamRebarTemplate.h) - 하중 전달용 특수 보
+
+#### 기초 구조 요소
+- **Isolated Footing (독립기초)**: [MSIsoFootG.h](mdc:MSIsoFootG.h)
+- **Wall Footer (벽체기초)**: [MSWallFootG.h](mdc:MSWallFootG.h)
+- **Pile (말뚝)**: [MSPile.h](mdc:MSPile.h)
+
+## 철근 배근 시스템
+
+### 철근의 역할
+콘크리트는 압축강도는 높지만 인장강도가 낮기 때문에 철근으로 보강합니다.
+
+### 철근 종류
+- **Main Bar (주철근)**: [MSMainBar.h](mdc:MSMainBar.h) - 주요 하중을 담당
+- **Stirrup (스터럽)**: [DTStirrup.h](mdc:DTStirrup.h) - 전단력 저항용 띠철근
+- **Dowel (다웰)**: [DTDowel.h](mdc:DTDowel.h) - 부재간 연결용 철근
+
+### 철근 배치 규칙
+- **피복두께**: 철근을 보호하기 위한 콘크리트 최소 두께
+- **정착길이**: 철근의 힘이 콘크리트에 전달되는 데 필요한 길이
+- **이음길이**: 철근 간 연결에 필요한 겹침 길이
+
+## 거푸집 시스템
+
+### 거푸집의 역할
+콘크리트를 타설할 때 원하는 형태로 성형하기 위한 임시 구조물입니다.
+
+### 거푸집 관련 클래스
+- **FormWork Template**: [FormWorkTemplate.h](mdc:FormWorkTemplate.h)
+- **FormWork Building**: [MSFormWorkBuilding.h](mdc:MSFormWorkBuilding.h)
+- **FormWork Material**: [MSFormWorkMaterial.h](mdc:MSFormWorkMaterial.h)
+
+## 물량 산출
+
+### 콘크리트 물량
+- 부재별 체적 계산
+- 개구부 제외 계산
+- 손실률 적용
+
+### 철근 물량
+- [RebarQuantity.h](mdc:RebarQuantity.h): 철근 물량 계산 시스템
+- 직선길이 + 구부림길이 + 여유분
+- 중량 환산 (지름별 단위중량 적용)
+
+### 거푸집 물량
+- 접촉면적 계산
+- 재사용 횟수 고려
+- 형태별 단가 적용
+
+## 설계 기준 및 규정
+
+### 국내 설계기준
+- KBC (Korean Building Code)
+- KCI (Korea Concrete Institute) 기준
+- 건축구조기준
+
+### 철근 규격
+- KS D 3504 (철근 콘크리트용 봉강)
+- 항복강도별 분류 (SD400, SD500 등)
+
+## 품질 관리
+
+### 구조 검토 항목
+- [MSCheckModelOption.h](mdc:MSCheckModelOption.h): 모델 검증 옵션
+- [MSModelChecker.h](mdc:MSModelChecker.h): 모델 검증 시스템
+
+### 철근 배근 검토
+- 최소 철근비 확인
+- 최대 철근비 확인
+- 철근 간격 규정 준수
+- 정착길이 확인
+
+## CAD 연동
+
+### 형상 정보
+- 2D 도면 정보: [DG2DLine.h](mdc:DG2DLine.h), [DG2DArc.h](mdc:DG2DArc.h)
+- 3D 모델 정보: 각 구조 요소의 Geometry 클래스
+
+### 도면 자동화
+- 구조도면 자동 생성
+- 철근 상세도 자동 생성
+- 물량표 자동 작성
+
+## 협업 및 데이터 교환
+
+### IFC (Industry Foundation Classes)
+- 국제 표준 BIM 데이터 교환 포맷
+- 타 소프트웨어와의 상호 운용성
+
+### 설계 변경 관리
+- [CmdProcess/](mdc:CmdProcess/) 디렉토리: 명령 처리 시스템
+- 버전 관리 및 변경 이력 추적

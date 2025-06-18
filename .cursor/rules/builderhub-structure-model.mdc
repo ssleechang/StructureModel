@@ -1,0 +1,87 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# BuilderHub Structure Model 프로젝트 가이드
+
+## 프로젝트 개요
+이 프로젝트는 BuilderHub의 Building Information Model(BIM) 중 Structure Model을 기술하는 핵심 C++ 라이브러리입니다. Visual C++ 환경에서 개발되었으며, 건축 구조 요소들의 모델링과 철근 배치, 거푸집 설계 등을 담당합니다.
+
+## 주요 도메인 영역
+
+### 구조 요소 (Structural Elements)
+- **Beam (보)**: [BeamRebarTemplate.h](mdc:BeamRebarTemplate.h), [MSBeamG.h](mdc:MSBeamG.h)
+- **Column (기둥)**: [ColumnRebarTemplate.h](mdc:ColumnRebarTemplate.h), [MSColumnG.h](mdc:MSColumnG.h)
+- **Wall (벽)**: [BWallRebarTemplate.h](mdc:BWallRebarTemplate.h), [MSWallMemberG.h](mdc:MSWallMemberG.h)
+- **Slab (슬래브)**: [SlabRebarTemplate.h](mdc:SlabRebarTemplate.h), [MSSlabG.h](mdc:MSSlabG.h)
+
+### 철근 시스템 (Rebar System)
+- **Base Template**: [BaseRebarTemplate.h](mdc:BaseRebarTemplate.h) - 모든 철근 템플릿의 기본 클래스
+- **Template Manager**: [RebarTemplateManager.h](mdc:RebarTemplateManager.h) - 철근 템플릿 관리
+- **Rebar Quantity**: [RebarQuantity.h](mdc:RebarQuantity.h) - 철근 물량 계산
+
+### 거푸집 시스템 (Form Work System)
+- **FormWork Template**: [FormWorkTemplate.h](mdc:FormWorkTemplate.h)
+- **FormWork Manager**: [FormWorkTemplateManager.h](mdc:FormWorkTemplateManager.h)
+
+## 명명 규칙
+
+### 클래스 접두사
+- **MS**: Model Structure (예: [MSBeamG.h](mdc:MSBeamG.h), [MSColumnG.h](mdc:MSColumnG.h))
+- **MR**: Model Rebar (예: [MRBeamM.h](mdc:MRBeamM.h), [MRColumnM.h](mdc:MRColumnM.h))
+- **DT**: Detail Template (예: [DTBeam.h](mdc:DTBeam.h), [DTColumn.h](mdc:DTColumn.h))
+- **MD**: Model Data (예: [MDCustomBeamM.h](mdc:MDCustomBeamM.h))
+
+### 파일 접미사
+- **G**: Geometry 클래스
+- **M**: Member/Model 클래스
+- **Template**: 템플릿 클래스
+- **Helper**: 유틸리티/헬퍼 클래스
+
+## 핵심 아키텍처 패턴
+
+### Template Pattern
+철근 배치를 위한 템플릿 패턴이 광범위하게 사용됩니다:
+- [BaseRebarTemplate.h](mdc:BaseRebarTemplate.h)에서 상속받는 구조
+- 각 구조 요소별 특화된 템플릿 구현
+
+### Factory Pattern
+- [MSMFactory.h](mdc:MSMFactory.h): 모델 객체 생성을 위한 팩토리
+
+### Manager Pattern
+다양한 매니저 클래스들이 시스템을 관리합니다:
+- [RebarTemplateManager.h](mdc:RebarTemplateManager.h)
+- [FormWorkTemplateManager.h](mdc:FormWorkTemplateManager.h)
+- [MSAreaTemplateManager.h](mdc:MSAreaTemplateManager.h)
+
+## 개발 가이드라인
+
+### 새로운 구조 요소 추가 시
+1. MS{ElementName}G.h/cpp (Geometry 클래스) 생성
+2. MS{ElementName}M.h/cpp (Model 클래스) 생성
+3. {ElementName}RebarTemplate.h/cpp (철근 템플릿) 생성
+4. 해당 Manager에 등록
+
+### 철근 템플릿 개발 시
+1. [BaseRebarTemplate.h](mdc:BaseRebarTemplate.h)에서 상속
+2. 구조 요소별 특성에 맞는 철근 배치 로직 구현
+3. 물량 계산 로직 포함
+
+### Helper 클래스 활용
+- [CogReaderHelper.h](mdc:CogReaderHelper.h): COG 파일 읽기 지원
+- [MTReaderHelper.h](mdc:MTReaderHelper.h): MT 파일 처리 지원
+
+## 중요 설정 파일
+- [StructureModelEnum.h](mdc:StructureModelEnum.h): 프로젝트 전반의 열거형 정의
+- [EFS_Buffer.h](mdc:EFS_Buffer.h): 버퍼 관리
+- [eCollectionModifyType.h](mdc:eCollectionModifyType.h): 컬렉션 수정 타입
+
+## 빌드 환경
+- Visual C++ 프로젝트
+- [.gitignore](mdc:.gitignore)에 Visual Studio 관련 파일들이 제외 설정됨
+- x64 플랫폼 지원
+
+## 레거시 코드
+- [OldRebarTemplate/](mdc:OldRebarTemplate/) 디렉토리: 이전 버전 철근 템플릿들
+- 새로운 개발 시 참조용으로만 사용, 직접 수정 금지

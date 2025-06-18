@@ -1,0 +1,128 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# C++ 개발 표준 및 Visual C++ 가이드
+
+## 코딩 표준
+
+### 헤더 파일 구조
+```cpp
+#pragma once
+
+// 시스템 헤더
+#include <vector>
+#include <memory>
+
+// 프로젝트 헤더
+#include "BaseClass.h"
+
+// 전방 선언
+class ForwardDeclaredClass;
+
+// 클래스 정의
+class ClassName
+{
+public:
+    // 생성자/소멸자
+    ClassName();
+    virtual ~ClassName();
+    
+    // 공개 메서드
+    
+private:
+    // 멤버 변수
+};
+```
+
+### 명명 규칙
+- **클래스명**: PascalCase (예: `BaseRebarTemplate`)
+- **메서드명**: PascalCase (예: `GetRebarCount()`)
+- **변수명**: camelCase (예: `rebarCount`)
+- **상수명**: UPPER_SNAKE_CASE (예: `MAX_REBAR_COUNT`)
+- **멤버 변수**: m_ 접두사 (예: `m_rebarList`)
+
+### 메모리 관리
+- 스마트 포인터 사용 권장 (`std::shared_ptr`, `std::unique_ptr`)
+- RAII 패턴 적용
+- 메모리 누수 방지를 위한 적절한 소멸자 구현
+
+## Visual C++ 특화 사항
+
+### 프리컴파일된 헤더
+- [stdafx.h](mdc:stdafx.h): 표준 시스템 포함 파일
+- [stdafx.cpp](mdc:stdafx.cpp): 프리컴파일된 헤더 생성용
+
+### 리소스 파일
+- [StructureModel.rc](mdc:StructureModel.rc): 리소스 정의
+- [resource.h](mdc:resource.h): 리소스 ID 정의
+
+### 모듈 정의
+- [StructureModel.def](mdc:StructureModel.def): DLL 익스포트 정의
+
+## 프로젝트별 패턴
+
+### Template 패턴 구현
+```cpp
+// BaseRebarTemplate에서 상속받는 템플릿 클래스
+class ConcreteRebarTemplate : public BaseRebarTemplate
+{
+public:
+    // 가상 함수 오버라이드
+    virtual void GenerateRebar() override;
+    virtual double CalculateQuantity() override;
+};
+```
+
+### Manager 패턴 구현
+```cpp
+// 싱글톤 매니저 클래스
+class TemplateManager
+{
+public:
+    static TemplateManager& GetInstance();
+    
+    void RegisterTemplate(const std::string& name, 
+                         std::shared_ptr<BaseTemplate> tmpl);
+    std::shared_ptr<BaseTemplate> GetTemplate(const std::string& name);
+    
+private:
+    TemplateManager() = default;
+    std::map<std::string, std::shared_ptr<BaseTemplate>> m_templates;
+};
+```
+
+## 성능 최적화
+
+### 컴파일 시간 최적화
+- 전방 선언 적극 활용
+- 헤더에서 불필요한 #include 제거
+- 프리컴파일된 헤더 활용
+
+### 런타임 최적화
+- const 키워드 적극 사용
+- 참조자(&) 사용으로 복사 비용 절약
+- 적절한 인라인 함수 사용
+
+## 디버깅 가이드
+
+### Visual Studio 디버거 활용
+- 중단점 효과적 사용
+- 조건부 중단점 활용
+- 메모리 덤프 분석
+
+### 로깅 시스템
+- [Logger.h](mdc:Logger.h): 프로젝트 로깅 시스템 활용
+- 디버그/릴리스 빌드별 로그 레벨 조정
+
+## 테스트 가이드라인
+
+### 단위 테스트
+- 각 템플릿 클래스별 테스트 케이스 작성
+- 철근 배치 로직 검증
+- 물량 계산 정확성 검증
+
+### 통합 테스트
+- 전체 시스템 워크플로우 테스트
+- 다양한 구조 요소 조합 테스트
