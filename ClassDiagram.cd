@@ -1,0 +1,1040 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CLogWriter" Collapsed="true">
+    <Position X="144" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAgAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLogger" Collapsed="true">
+    <Position X="142.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAARAAAAAAAEAAAAAABAAAAAEIAAAAAEAAAAI=</HashCode>
+      <FileName>Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRCompoM" Collapsed="true">
+    <Position X="54.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQQAAAAAEAAAgAgAACAAQAAAIAIAAAAAAAA=</HashCode>
+      <FileName>MRCompoM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRComposer" Collapsed="true">
+    <Position X="81.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAACgSAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MRComposer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRObject" Collapsed="true">
+    <Position X="12.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>MRObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRSection" Collapsed="true">
+    <Position X="6" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MRSection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSBarSet" Collapsed="true">
+    <Position X="90.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAYAAJAJAIxAAACQAAECigAkACACAACUAgAUCAAghIA=</HashCode>
+      <FileName>msbarset.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSBeamG" Collapsed="true">
+    <Position X="126.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACAAACAAAAAAAAAAAiAAAAAAQAACAAAAAAA=</HashCode>
+      <FileName>msbeamg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSBraceG" Collapsed="true">
+    <Position X="128.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAACAAAIAAAAAAAiAACAAAAAACAAAAAAA=</HashCode>
+      <FileName>msbraceg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSBuilding" Collapsed="true">
+    <Position X="135.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoEATkABYAAAgAAAAIJAVAQQACADhABFAAFCICISCJg=</HashCode>
+      <FileName>msbuilding.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSColumnG" Collapsed="true">
+    <Position X="112.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAiAAAAAAAEACEAAAAAA=</HashCode>
+      <FileName>mscolumng.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCompoG" Collapsed="true">
+    <Position X="119.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAABAAQQAACAAAAAAgAAAAiAAAAEAIAAAAAABEAA=</HashCode>
+      <FileName>mscompog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCompoM" Collapsed="true">
+    <Position X="31.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BARJCEEoAwRACIAECAUgghJAAKAEACMQAgAIAEADBCI=</HashCode>
+      <FileName>MSCompoM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSConcrete" Collapsed="true">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAIACACAAAAgAAAAAAAOAIAQAAAAAEAAIQAAA=</HashCode>
+      <FileName>msconcrete.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSConstructionZone" Collapsed="true">
+    <Position X="83.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAEAAAAAAgAAAQCAAAAAEAgAAAAAAAAE=</HashCode>
+      <FileName>msconstructionzone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSContainer" Collapsed="true">
+    <Position X="135.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEJAAEAJAAAAgyAAAAAQjACEACwQggQEBIEAAAAgCAA=</HashCode>
+      <FileName>MSContainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSWallMemberG" Collapsed="true">
+    <Position X="117.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAAAAAAUmQACQAAAABAAjACAAAAAAQCABAAAQA=</HashCode>
+      <FileName>msfacememberg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSFaceMemberM" Collapsed="true">
+    <Position X="20.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAIgAGIAYRQGAAABAAAAAAAACAAAAASAAAAAEAAAAQ=</HashCode>
+      <FileName>msfacememberm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRelation" Collapsed="true">
+    <Position X="145.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAAEAAAAAAAEUIDAAAAAACAAAAAAgEAgAAAAAAA=</HashCode>
+      <FileName>msfloor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSFloor" Collapsed="true">
+    <Position X="137.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAACEApAgAAAQhAAQAgGQYAAmAAAMKAQAACZQIwGAA=</HashCode>
+      <FileName>msfloor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSFloorQT" Collapsed="true">
+    <Position X="147.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAQCCAAEAECAAEAABBEQkEAAgARDZAQAAAEAAAA=</HashCode>
+      <FileName>msfloorqt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGenStairG" Collapsed="true">
+    <Position X="106" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIIAEAAgACAAACgwAkAAABBAAiAAAIACAgQCEABAAAA=</HashCode>
+      <FileName>msgenstairg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGridLine" Collapsed="true">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMQgIIAjAASEAIAAMABEiAAyADBCAAAQBoLAAAABBAA=</HashCode>
+      <FileName>MSGridLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGroup" Collapsed="true">
+    <Position X="133" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIADAAAABCAAkAAAAAgQAAEICgAAACCAAEAIIAAAIg=</HashCode>
+      <FileName>msgroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSHandRailG" Collapsed="true">
+    <Position X="119.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAgAiAAAAIAAAACAAAAAAA=</HashCode>
+      <FileName>mshandrailg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSIsoFootG" Collapsed="true">
+    <Position X="108.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACACAAAAAAgAAAAiAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>msisofootg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSConnectivity" Collapsed="true">
+    <Position X="85.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAQAAAQAAAAAgAgBACAB4AyICAIABAAAAgA=</HashCode>
+      <FileName>MSConnectivity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSJointMemberG" Collapsed="true">
+    <Position X="110.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAACABAiAAAACIAAACAAAAAAA=</HashCode>
+      <FileName>MSJointMemberG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSLineLevelDifG" Collapsed="true">
+    <Position X="124" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAkAAAACAAABAAAAAAAiAIAAAAAEACAACAAAA=</HashCode>
+      <FileName>mslineleveldifg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSLineMemberG" Collapsed="true">
+    <Position X="124" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mslinememberg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSLineMemberM" Collapsed="true">
+    <Position X="39.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAGAIAQACAAAIBAUAAABACAAAAAAEAAAAEACAAA=</HashCode>
+      <FileName>mslinememberm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSLMemConnect" Collapsed="true">
+    <Position X="142.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAABAAAAAAIAAAAAAACAAAAAAiAAgAgAAAAA=</HashCode>
+      <FileName>mslinkmemberg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSPMemConnect" Collapsed="true">
+    <Position X="144" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAggAAAAAAAAAAAAAAAACAAAAAAkAAgAgAAAAA=</HashCode>
+      <FileName>mslinkmemberg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSLinkMemberG" Collapsed="true">
+    <Position X="121.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACgAgCCAAABAAAAgAyABEAAAAggCAIAEAAA=</HashCode>
+      <FileName>mslinkmemberg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSLinkMemPart" Collapsed="true">
+    <Position X="139.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAggAARAAAhQAgEggAABAAAAAIQAAAAEEAA=</HashCode>
+      <FileName>MSLinkMemPart.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSMaterial" Collapsed="true">
+    <Position X="10.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAIJAAAAQAAAAAAAAAgEBAASAAAAEQAAIACAABAAA=</HashCode>
+      <FileName>msmaterial.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSCompoG" Collapsed="true">
+    <Position X="116.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAIAAAMAIAAACAAAAAAAABACiAAgAAYAAACAEAIAAg=</HashCode>
+      <FileName>MSCompoG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSObject" Collapsed="true">
+    <Position X="73.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAAAAAAAAAACAAAAAAAkCAAiAAAgAABAAEAAgAgEg=</HashCode>
+      <FileName>msobject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSOpening" Collapsed="true">
+    <Position X="58.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAABAAAAAgAAAACAAAAAAAAAEAAAAgAA=</HashCode>
+      <FileName>msopening.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSPartCompoG" Collapsed="true">
+    <Position X="103.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>mspartcompog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSPitG" Collapsed="true">
+    <Position X="101.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAABAAAAgAACAAAAEAAgCIAiAAAIAAAACSAACAAAA=</HashCode>
+      <FileName>mspitg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSPointMemberG" Collapsed="true">
+    <Position X="110.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAACAAAAAAAAAgACAAAACAAAgCgIAAAAA=</HashCode>
+      <FileName>mspointmemberg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSPolySection" Collapsed="true">
+    <Position X="92.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAAACACA=</HashCode>
+      <FileName>mspolysection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRampG" Collapsed="true">
+    <Position X="103.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAgAACQAAAAACCgCAiAAAQACRAECgAAAABA=</HashCode>
+      <FileName>msrampg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRebarShape" Collapsed="true">
+    <Position X="94.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8IQAABAQEgTe+gOMiUBAgAAyACAIAgAAAQDsvwFAKMA=</HashCode>
+      <FileName>msrebarshape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSlabSptMemPart" Collapsed="true">
+    <Position X="97" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>msslabg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSlabG" Collapsed="true">
+    <Position X="130.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJBAEAAAAJAACAgIAAAAIABAiCAAgQGgAACAACAAAA=</HashCode>
+      <FileName>msslabg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSlabLineG" Collapsed="true">
+    <Position X="115" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAACAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>MSSlabLineG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSlantColumnG" Collapsed="true">
+    <Position X="112.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>MSSlantColumnG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteel" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAIAAAAAAAAAACAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mssteel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSVerticalLineMemberG" Collapsed="true">
+    <Position X="111.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACQAAAIAACAAACAAAAAAAAgCAAAAAAA=</HashCode>
+      <FileName>msverticallinememberg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSWallFootG" Collapsed="true">
+    <Position X="121.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAABCAAAAAAAAAAAiAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>mswallfootg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XBarSetInfo" Collapsed="true">
+    <Position X="144" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACABAAAAAAAAQAEAAAAAAAAQCAAAAAAAAQgAAAAAAA=</HashCode>
+      <FileName>XBarSetInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMSRowM" Collapsed="true">
+    <Position X="145.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAEACAIAAAYAwAAAAASAAAAAIBAAAAAAIIgIAAQRAA=</HashCode>
+      <FileName>XMSRowM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DTDowel" Collapsed="true">
+    <Position X="0.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAACQAAAAgAAAAAEAAAAACAAAAAAAAAAAAFA=</HashCode>
+      <FileName>DTDowel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DTDowelColumn" Collapsed="true">
+    <Position X="0.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTDowelColumn.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DTJoint" Collapsed="true">
+    <Position X="3" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>DTJoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DTJointColumn" Collapsed="true">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>DTJointColumn.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DTObject" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DTStirrup" Collapsed="true">
+    <Position X="5.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgkACAQAGAAAAQAAgAABAAAAIAAgAAIGAEAAAQE=</HashCode>
+      <FileName>DTStirrup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DTStirrupColumn" Collapsed="true">
+    <Position X="5.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAgAAQAAgAAAAAQAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>DTStirrupColumn.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRBeamM" Collapsed="true">
+    <Position X="52" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAIAQAAAAAAAAAAAAgAAAAEAAAAAAA=</HashCode>
+      <FileName>MRBeamM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRColumnM" Collapsed="true">
+    <Position X="54.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>MRColumnM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MREdge" Collapsed="true">
+    <Position X="21.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIIAA0ACAwAACEYAJEAAAAACAACBAACAEAAIAYAAA=</HashCode>
+      <FileName>MREdge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRFaceMemberM" Collapsed="true">
+    <Position X="56.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MRFaceMemberM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRHBar" Collapsed="true">
+    <Position X="16.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAJACAAAAAAEIAAAAAAAAA=</HashCode>
+      <FileName>MRHBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRHBarByEdge" Collapsed="true">
+    <Position X="15" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAkAAAAAAAAAACAAAAQAQACAAAAAAAAAAMAAAAAE=</HashCode>
+      <FileName>MRHBarByEdge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRHBarByPoint" Collapsed="true">
+    <Position X="17.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAgAAAAIAQAAAAACAAAAAAAAAAAAQAAAE=</HashCode>
+      <FileName>MRHBarByPoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRHBarPoint" Collapsed="true">
+    <Position X="1.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAMAA=</HashCode>
+      <FileName>MRHBarPoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRHBarPointByLoc" Collapsed="true">
+    <Position X="3.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAACCAAFAAAAAAACAA=</HashCode>
+      <FileName>MRHBarPointByLoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRHBarPointByVBar" Collapsed="true">
+    <Position X="1.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAIAAAAAAACAAAAAAAAQAACAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>MRHBarPointByVBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRLineMemberM" Collapsed="true">
+    <Position X="53.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>MRLineMemberM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRRcSection" Collapsed="true">
+    <Position X="6" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAgBCQQAgAACCAAAAAAgCCAACAAgAAAAAAMBAAA=</HashCode>
+      <FileName>MRRcSection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRSectionBar" Collapsed="true">
+    <Position X="12.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAgAAAAABACAAAAAAAoAAAAQgAAA=</HashCode>
+      <FileName>MRSectionBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRSectionZone" Collapsed="true">
+    <Position X="19.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIIAAAAEAAAAAAAAAAAAACAIAAAAAAAAAAAACAA=</HashCode>
+      <FileName>MRSectionZone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRStirrupComposer" Collapsed="true">
+    <Position X="24" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAgAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAgE=</HashCode>
+      <FileName>MRStirrupComposer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRVBar" Collapsed="true">
+    <Position X="10.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAAAAAoAAAAABBCAAAACAAAAAAAAAACA=</HashCode>
+      <FileName>MRVBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRVBarByLoc" Collapsed="true">
+    <Position X="12.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAAAAAAAAAAAAAAAQAAAAAACAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>MRVBarByLoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRVBarByNum" Collapsed="true">
+    <Position X="8.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAABEAAAAAAQAAAAAAIAKAAAABAAAAEAgAAAAA=</HashCode>
+      <FileName>MRVBarByNum.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRVBarBySpace" Collapsed="true">
+    <Position X="10.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAAAAAAAAAAEAACAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>MRVBarBySpace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MRWallM" Collapsed="true">
+    <Position X="56.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MRWallM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSAMBuilding" Collapsed="true">
+    <Position X="135.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQgAAAAAAAEAACAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>MSAMBuilding.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSMainBar" Collapsed="true">
+    <Position X="61" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAGAAAQAQGAAAkAAgAAAgCABIACQAAAgICIADAA=</HashCode>
+      <FileName>msmainbar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcBeamM" Collapsed="true">
+    <Position X="31.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIIBAAAEAQAAAAIiQgIAAAACCAAAAgAAAAgwEAAAAA=</HashCode>
+      <FileName>msrcbeamm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcBeamSec" Collapsed="true">
+    <Position X="74.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEkgAAAAQgQAACABECAAAACAECABAEAAAAAAMAAAAEA=</HashCode>
+      <FileName>msrcbeamsec.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcBraceM" Collapsed="true">
+    <Position X="36.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAAAAQAAAAAIAQCABAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>msrcbracem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcBWallM" Collapsed="true">
+    <Position X="25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAIAQEAAgAAIUCCACEADIHAACAAACAARBBAIQ=</HashCode>
+      <FileName>msrcbwallm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcColumnM" Collapsed="true">
+    <Position X="38.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAAEAQERQAhDAgoQAACCCAFAAAEAAAAgBCiASA=</HashCode>
+      <FileName>msrccolumnm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcColumnPSec" Collapsed="true">
+    <Position X="92.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAAEAAEAAAgBAAwQAAACAAAAAAAAAAAABAgAQA=</HashCode>
+      <FileName>MSRcColumnPSec.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcFaceMemberM" Collapsed="true">
+    <Position X="20.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAABAAAACAAACAAAgAEAEAAAAA=</HashCode>
+      <FileName>msrcfacememberm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcIsoFootM" Collapsed="true">
+    <Position X="27.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hIBLAAGwMAQCGQEEAAUEAlAAASDAEAAwAAABFGACEFQ=</HashCode>
+      <FileName>msrcisofootm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcLevelDifM" Collapsed="true">
+    <Position X="29.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAAAEAQEYAACAAAOAQAAARACAJCAAAAAAAAAAAQAA=</HashCode>
+      <FileName>msrcleveldifm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcLineMemberM" Collapsed="true">
+    <Position X="34" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAQAAAAAAAAACAAAACAAACAAAgAAAEAAAAA=</HashCode>
+      <FileName>msrclinememberm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcMFactory" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAABAAAAAAAAAAAgAAAAAACAAAAAAAA=</HashCode>
+      <FileName>MSRcMFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcObject" Collapsed="true">
+    <Position X="70" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>msrcobject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcPitM" Collapsed="true">
+    <Position X="20.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIBJAgAAEAQAAEDEAAEBAFAQQSgAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>msrcpitm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSEdgeBar" Collapsed="true">
+    <Position X="66.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>MSRcPolySection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSEdgeVBar" Collapsed="true">
+    <Position X="63.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAiAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MSRcPolySection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSEdgeHBar" Collapsed="true">
+    <Position X="65.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAGAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MSRcPolySection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSTieBarPoint" Collapsed="true">
+    <Position X="76.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>MSRcPolySection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSEdgeTieBar" Collapsed="true">
+    <Position X="67.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>MSRcPolySection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSFaceTieBar" Collapsed="true">
+    <Position X="70" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAQAAAACAAA=</HashCode>
+      <FileName>MSRcPolySection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSPSecEdge" Collapsed="true">
+    <Position X="99.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MSRcPolySection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSPSecEdgeEx" Collapsed="true">
+    <Position X="99.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>MSRcPolySection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcPolySection" Collapsed="true">
+    <Position X="92.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgBAAAQBgAAAAAAAAACAAAAAAAAAAAACA=</HashCode>
+      <FileName>MSRcPolySection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcRampM" Collapsed="true">
+    <Position X="13.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAIAAAQCAAAAAABAAAAAAQAAA=</HashCode>
+      <FileName>msrcrampm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcRWallM" Collapsed="true">
+    <Position X="16" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgEoAQGQAIgAIUBECCQCHQGgAQAADBQAQBAEIA=</HashCode>
+      <FileName>msrcrwallm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcSlabM" Collapsed="true">
+    <Position X="18.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABDAAACEoQAIAgECAEAAEAAASAAAAAgAAAAAEAAAAA=</HashCode>
+      <FileName>msrcslabm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcStairM" Collapsed="true">
+    <Position X="22.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAgADoFARIAQAkgABAIAAAADLBAEACAAAgEABAAQM=</HashCode>
+      <FileName>msrcstairm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcStrip" Collapsed="true">
+    <Position X="72.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAEAQAAAAgAQAAIAAAAGKAAWABABAAABAAAAA=</HashCode>
+      <FileName>msrcstrip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSRcWallFootM" Collapsed="true">
+    <Position X="34" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABDAAGQEAQQCAEEAAUAAEAAASDAIAEwAAAAAAAAARA=</HashCode>
+      <FileName>msrcwallfoot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSrcBraceM" Collapsed="true">
+    <Position X="40.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAQAAAAAAAQAAQAAACAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>MSSrcBraceM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSrcColumnM" Collapsed="true">
+    <Position X="43" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICCAAAEAQEAAAgBAAAQQAICCABAAAAAAAAAEAgIQA=</HashCode>
+      <FileName>MSSrcColumnM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelBeamM" Collapsed="true">
+    <Position X="45.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAQAAAAAAAAAIQAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MSSteelBeamM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelBraceM" Collapsed="true">
+    <Position X="47.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQQAAAAAAAAAAQAAACAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>MSSteelBraceM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelColumnM" Collapsed="true">
+    <Position X="49.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAQAAAAAAAAAAUAAACAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>MSSteelColumnM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSStirrupBar" Collapsed="true">
+    <Position X="79" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEoCIIiAAAQgwAAAAFAAAAAAkCiIABCAAAAgCEYAACA=</HashCode>
+      <FileName>msstirrupbar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSDeformedBar" Collapsed="true">
+    <Position X="145.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAggIEAAAQCAQABAQAAAAABAAAgEAAAAAgAQGAIAAA=</HashCode>
+      <FileName>MSDeformedBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSUnit" Collapsed="true">
+    <Position X="88" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgATCwAiBAgQAAABSiAgAQIAmyQgAQBCBtIAIFAAAA=</HashCode>
+      <FileName>MSUnit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSMFactory" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAACAEABAAAAAAAABACgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MSMFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelAngleKr" Collapsed="true">
+    <Position X="5.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBQAAgABAACCABAAMBAgAAhESAADcAAAAABSABUACSA=</HashCode>
+      <FileName>MSSteelAngleKr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelCSectionKr" Collapsed="true">
+    <Position X="8" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAgAAAACCAAAAMBCgAAAESAgAdAAAAABSABUACSA=</HashCode>
+      <FileName>MSSteelCSectionKr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelDAngleKr" Collapsed="true">
+    <Position X="10.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAgAAAAKGAAACMBDgAAAESAgAcIAAAABSABUACSA=</HashCode>
+      <FileName>MSSteelDAngleKr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelDeckPlateKr" Collapsed="true">
+    <Position X="12.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQEAAACAAECAEAAAAAAEYIBEEAQBAQhyECUBCCA=</HashCode>
+      <FileName>MSSteelDeckPlateKr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelHSectionKr" Collapsed="true">
+    <Position X="14.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAgAAAQCCAAAAEBCgAAIESAgAcBAAAABSABWACSA=</HashCode>
+      <FileName>MSSteelHSectionKr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelRectPipeKr" Collapsed="true">
+    <Position X="17" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAgAAAACCQAAAEBAgABAEaAgAcAAAAABTABEACSA=</HashCode>
+      <FileName>MSSteelRectPipeKr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelRoundPipeKr" Collapsed="true">
+    <Position X="1.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAgAAgACCAAAAEBAgAAAEaAgAUAIAAABSBBUQCCA=</HashCode>
+      <FileName>MSSteelRoundPipeKr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelFileInfo" Collapsed="true">
+    <Position X="147.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAABAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>MSSteelSection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelSection" Collapsed="true">
+    <Position X="9" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EFABAgAAAAAGAAgAABAAIQAESAAAAAIAAABWGBUADAA=</HashCode>
+      <FileName>MSSteelSection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelTSectionKr" Collapsed="true">
+    <Position X="3.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAIgAAEACCAAAAEBCgAAAESAgAcAAAAABSABUACSA=</HashCode>
+      <FileName>MSSteelTSectionKr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSSteelUtility" Collapsed="true">
+    <Position X="142.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAAQAQEAiGAAAAAAAAAAAAAAAAAAIAoAAAAAAAAAA=</HashCode>
+      <FileName>MSSteelUtility.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="_SpacerShape" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAA/AEIAAAAAAAAQCAAAAAAAIAgngEAAAA=</HashCode>
+      <FileName>MSCompoM.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="SpacerShape" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MSCompoM.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="__unnamed_enum_105c_1" Collapsed="true">
+    <Position X="142.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MSRebarShape.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSType" Collapsed="true">
+    <Position X="142.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAOAgAAAAACgAAAAAAAAQVMABAQAAAAEAAACACgYABA=</HashCode>
+      <FileName>msfloor.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MSREBAR_SHAPECODE" Collapsed="true">
+    <Position X="144" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8A8DAAAIDgDwDwwA8D8AAPA/AADwzwAA8M8AAPAPAwA=</HashCode>
+      <FileName>msrebarshape.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="msSteelCode" Collapsed="true">
+    <Position X="145.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StructureModelEnum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="msSteelSecType" Collapsed="true">
+    <Position X="147.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>StructureModelEnum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="msBarSetType" Collapsed="true">
+    <Position X="142.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9ighRFYICEAAgJLjEiMK0SRNzJBjXKCNC3rdmgOmAwA=</HashCode>
+      <FileName>StructureModelEnum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MESSAGE_WARNING" Collapsed="true">
+    <Position X="147.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>StructureModelEnum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MESSAGE_ERROR" Collapsed="true">
+    <Position X="145.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>StructureModelEnum.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DevType" Collapsed="true">
+    <Position X="142.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCBAAAAAAACAAQAgAQAAIAAAAAIAACAQAAAAAAAAA=</HashCode>
+      <FileName>DTDowel.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpliceType" Collapsed="true">
+    <Position X="144" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAABAAAAAAAAAAAAQAAAAAAAACAEAAAAA=</HashCode>
+      <FileName>DTDowel.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AnchorType" Collapsed="true">
+    <Position X="144" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAACECCAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MRSectionBar.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="KS_DBar_Kind" Collapsed="true">
+    <Position X="144" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgQCAAAABwAAAAAwIwAAAAAAAAMAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MSDeformedBar.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ASTM_DBar_Kind" Collapsed="true">
+    <Position X="145.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAEAMBAAA=</HashCode>
+      <FileName>MSDeformedBar.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TCVN_DBar_Kind" Collapsed="true">
+    <Position X="145.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABQTQAAAAAAAAAAAAIAAAAAAABAAAA=</HashCode>
+      <FileName>MSDeformedBar.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BS_DBar_Kind" Collapsed="true">
+    <Position X="147.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCAAAACAHAAAAAAAQgsAAAAAAQAAAAAAAACAAAA=</HashCode>
+      <FileName>MSDeformedBar.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
